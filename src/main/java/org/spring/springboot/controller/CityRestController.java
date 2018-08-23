@@ -33,7 +33,7 @@ public class CityRestController {
 
     @RequestMapping(value = "/api/city", method = RequestMethod.GET)
     public List<City> findAllCity() {
-    	logger.info("request method is get.");
+    	logger.info("request method is get.How to test?");
         return cityService.findAllCity();
     }
 
